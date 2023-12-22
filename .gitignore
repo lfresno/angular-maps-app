@@ -1,5 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+#no queremos que estos archivos se puedan ver en el git porque contienen claves personales, por eso los ignoramos
+#para mostrar que esto está funcionando bien, los archivos deberían verse en gris en el explorador
+.env
+src/environments/environments.ts
+
 # Compiled output
 /dist
 /tmp

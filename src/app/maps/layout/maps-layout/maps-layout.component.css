@@ -1,0 +1,9 @@
+
+
+maps-side-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 180px;
+  z-index: 999; /* para que esté por delante de los demás elementos*/
+}
